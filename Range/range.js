@@ -1,6 +1,7 @@
-function range (num,i){
-    if(i<num){
-        console.log(i)
-        return range()
+function range (num){
+    if(num>=1){
+        console.log(num)
+        return range(num-1)
+        
     }
-}range(10,1)
+}range(10)

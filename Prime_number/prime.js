@@ -6,14 +6,16 @@ if(i<=num){
         count=count+1
         // console.log(count)
     }
-    return prime(num,i+1)
+    prime(num,i+1)
 }
-// return count
-}prime(num)
-// console.log(count)
 
+// return count
+}
 if(count==2){
     console.log("The number is a prime number ")
 }else {
     console.log("The number is not a prime number ")
 }
+prime(num) //FUNCTION CALLED
+
+
